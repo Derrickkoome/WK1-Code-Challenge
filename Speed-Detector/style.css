@@ -1,9 +1,11 @@
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: white;
@@ -14,23 +16,27 @@ body {
   padding: 20px;
 }       
 
+/* Main heading */
 h1 {
   color: #333;
   margin-bottom: 10px;
   font-size: 2rem;
 }
 
+/* Subtitle text */
 .subtitle {
   color: #666;
   margin-bottom: 30px;
   font-size: 1rem;
 }
 
+/* Input group wrapper */
 .input-group {
   margin-bottom: 25px;
   text-align: left;
 }
 
+/* Input labels */
 label {
   display: block;
   margin-bottom: 8px;
@@ -38,6 +44,7 @@ label {
   font-weight: 500;
 }
 
+/* Input field */
 input {
   width: 100%;
   padding: 12px 15px;
@@ -47,21 +54,25 @@ input {
   transition: border-color 0.3s ease;
 }
 
+/* Focused input */
 input:focus {
   outline: none;
   border-color: #e74c3c;
 }
 
+/* Error input highlight */
 input.error {
   border-color: #e74c3c;
 }
 
+/* Error message text */
 .error-message {
   color: #e74c3c;
   font-size: 14px;
   margin-top: 5px;
 }
 
+/* Result box */
 .result {
   background: #f8f9fa;
   border-radius: 10px;
@@ -70,6 +81,7 @@ input.error {
   display: none;
 }
 
+/* Result main text */
 .result-text {
   font-size: 1.3rem;
   color: #333;
@@ -77,11 +89,13 @@ input.error {
   font-weight: 600;
 }
 
+/* Extra info under result */
 .speed-info {
   color: #666;
   font-size: 0.9rem;
 }
 
+/* Info panel (rules section) */
 .info-panel {
   margin-top: 30px;
   text-align: left;
@@ -90,12 +104,14 @@ input.error {
   border-radius: 10px;
 }
 
+/* Info panel heading */
 .info-panel h3 {
   color: #333;
   margin-bottom: 15px;
   text-align: center;
 }
 
+/* Each info row */
 .info-item {
   display: flex;
   justify-content: space-between;
@@ -104,10 +120,12 @@ input.error {
   border-bottom: 1px solid #ddd;
 }
 
+/* Remove border for last row */
 .info-item:last-child {
   border-bottom: none;
 }
 
+/* Button styling */
 .calculate-btn {
   width: 100%;
   padding: 12px 20px;
@@ -122,11 +140,8 @@ input.error {
   margin-bottom: 20px;
 }
 
+/* Hover effect */
 .calculate-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
-}
-
-.calculate-btn:active {
-  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

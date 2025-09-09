@@ -1,35 +1,40 @@
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Page setup */
 body {
   font-family: Arial, sans-serif;
   background: white;
   min-height: 100vh;
-  display: flex;
+  display: flex; /* Center content */
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
-
+/* Heading */
 h1 {
   margin-bottom: 10px;
   color: #2c3e50;
 }
 
+/* Subtitle text */
 .subtitle {
   color: #7f8c8d;
   margin-bottom: 20px;
 }
 
+/* Input container */
 .input-group {
   margin-bottom: 20px;
   text-align: left;
 }
 
+/* Input labels */
 label {
   font-weight: bold;
   display: block;
@@ -37,6 +42,7 @@ label {
   color: #2c3e50;
 }
 
+/* Input fields */
 input {
   width: 100%;
   padding: 10px;
@@ -45,10 +51,11 @@ input {
   font-size: 16px;
 }
 
+/* Button styling */
 .calculate-btn {
   width: 100%;
   padding: 12px;
-  background:#27ae60;
+  background: #27ae60;
   border: none;
   border-radius: 8px;
   color: #fff;
@@ -58,18 +65,21 @@ input {
   margin-bottom: 20px;
 }
 
+/* Button hover effect */
 .calculate-btn:hover {
   background: #2ecc71;
 }
 
+/* Result box */
 .result {
   background: #f8f9fa;
   padding: 20px;
   border-radius: 10px;
   text-align: left;
-  display: none;
+  display: none; /* Hidden until calculation */
 }
 
+/* Result text */
 .result p {
   margin: 8px 0;
   font-size: 16px;

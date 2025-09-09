@@ -1,9 +1,11 @@
+/* Reset default spacing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body setup */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -13,24 +15,27 @@ body {
   padding: 20px;
 }
 
-
+/* Page heading */
 h1 {
   color: #333;
   margin-bottom: 10px;
   font-size: 2rem;
 }
 
+/* Subtitle text */
 .subtitle {
   color: #666;
   margin-bottom: 30px;
   font-size: 1rem;
 }
 
+/* Input wrapper */
 .input-group {
   margin-bottom: 25px;
   text-align: left;
 }
 
+/* Labels */
 label {
   display: block;
   margin-bottom: 8px;
@@ -38,6 +43,7 @@ label {
   font-weight: 500;
 }
 
+/* Input fields */
 input {
   width: 100%;
   padding: 12px 15px;
@@ -47,21 +53,25 @@ input {
   transition: border-color 0.3s ease;
 }
 
+/* Input focus effect */
 input:focus {
   outline: none;
   border-color: #667eea;
 }
 
+/* Error input */
 input.error {
   border-color: #e74c3c;
 }
 
+/* Error message text */
 .error-message {
   color: #e74c3c;
   font-size: 14px;
   margin-top: 5px;
 }
 
+/* Result box */
 .result {
   background: #f8f9fa;
   border-radius: 10px;
@@ -70,6 +80,7 @@ input.error {
   display: none;
 }
 
+/* Grade circle display */
 .grade-circle {
   width: 80px;
   height: 80px;
@@ -83,34 +94,40 @@ input.error {
   color: white;
 }
 
+/* Grade colors */
 .grade-a { background: green }
 .grade-b { background: blue }
 .grade-c { background: orange }
 .grade-d { background: darkmagenta }
 .grade-e { background: red }
 
+/* Grade text */
 .grade-text {
   font-size: 1.2rem;
   color: #333;
   margin-bottom: 10px;
 }
 
+/* Grade range text */
 .grade-range {
   color: #666;
   font-size: 0.9rem;
 }
 
+/* Grading scale container */
 .grading-scale {
   margin-top: 30px;
   text-align: left;
 }
 
+/* Grading scale title */
 .grading-scale h3 {
   color: #333;
   margin-bottom: 15px;
   text-align: center;
 }
 
+/* Grading scale rows */
 .scale-item {
   display: flex;
   justify-content: space-between;
@@ -119,19 +136,24 @@ input.error {
   border-bottom: 1px solid #eee;
 }
 
+/* Remove border from last row */
 .scale-item:last-child {
   border-bottom: none;
 }
 
+/* Grade label in scale */
 .scale-grade {
   font-weight: bold;
   color: #333;
 }
 
+/* Range label in scale */
 .scale-range {
   color: #666;
   font-size: 0.9rem;
 }
+
+/* Button styling */
 button {
   width: 100%;
   padding: 12px;

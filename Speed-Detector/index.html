@@ -4,27 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Speed Demerit Calculator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
 </head>
 <body>
   <div class="container">
+    <!-- Page title -->
     <h1>Speed Checker</h1>
     <p class="subtitle">Enter your speed to check for demerit points</p>
     
+    <!-- User input -->
     <div class="input-group">
       <label for="speed">Enter Speed (km/h)</label>
       <input type="number" id="speed" min="0" max="300" placeholder="Enter your speed...">
-      <div id="error" class="error-message"></div>
+      <div id="error" class="error-message"></div> <!-- Error message -->
     </div>
 
+    <!-- Button -->
     <button id="calculateBtn" class="calculate-btn">Check Speed</button>
 
+    <!-- Result section -->
     <div id="result" class="result">
-      <div id="statusCircle" class="status-circle"></div>
-      <div id="resultText" class="result-text"></div>
-      <div id="speedInfo" class="speed-info"></div>
+      <div id="statusCircle" class="status-circle"></div> <!-- Circle with status -->
+      <div id="resultText" class="result-text"></div> <!-- Result text -->
+      <div id="speedInfo" class="speed-info"></div> <!-- Extra info -->
     </div>
 
+    <!-- Information panel -->
     <div class="info-panel">
       <h3>Speed Limit Rules</h3>
       <div class="info-item">
@@ -42,6 +47,7 @@
     </div>
   </div>
 
+  <!-- External JS -->
   <script src="script.js"></script>
 </body>
 </html>

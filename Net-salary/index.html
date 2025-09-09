@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Net Salary Calculator (Kenya)</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"> <!-- Character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobile responsive -->
+  <title>Net Salary Calculator (Kenya)</title> <!-- Page title -->
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
 </head>
 <body>
-  <div class="container">
+  <div class="container"> <!-- Main wrapper -->
     <h1>Net Salary Calculator</h1>
     <p class="subtitle">Kenya Payroll (2025 rules)</p>
 
+    <!-- Input for basic salary -->
     <div class="input-group">
       <label for="basic">Basic Salary (Ksh)</label>
       <input type="number" id="basic" min="0" placeholder="Basic Salary...">
     </div>
+
+    <!-- Input for benefits -->
     <div class="input-group">
       <label for="benefits">Benefits (Ksh)</label>
       <input type="number" id="benefits" min="0" placeholder="Benefits...">
     </div>
 
+    <!-- Button to calculate -->
     <button id="calculateBtn" class="calculate-btn">Calculate Net Salary</button>
 
+    <!-- Results section -->
     <div id="result" class="result">
       <h3>Salary Breakdown</h3>
       <p><strong>Gross Salary:</strong> <span id="gross"></span></p>
@@ -35,6 +40,7 @@
     </div>
   </div>
 
+  <!-- External JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
