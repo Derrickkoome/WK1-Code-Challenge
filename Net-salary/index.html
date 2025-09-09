@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Net Salary Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Net Salary Calculator (Kenya)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>Net Salary Calculator</h1>
-    <p class="subtitle">Enter your details to calculate your net salary</p>
+    <p class="subtitle">Kenya Payroll (2025 rules)</p>
 
     <div class="input-group">
       <label for="basic">Basic Salary (Ksh)</label>
-      <input type="number" id="basic" min="0" placeholder="Enter basic salary...">
+      <input type="number" id="basic" min="0" placeholder="Basic Salary...">
     </div>
-
     <div class="input-group">
       <label for="benefits">Benefits (Ksh)</label>
-      <input type="number" id="benefits" min="0" placeholder="Enter benefits...">
+      <input type="number" id="benefits" min="0" placeholder="Benefits...">
     </div>
 
     <button id="calculateBtn" class="calculate-btn">Calculate Net Salary</button>
@@ -26,9 +25,12 @@
     <div id="result" class="result">
       <h3>Salary Breakdown</h3>
       <p><strong>Gross Salary:</strong> <span id="gross"></span></p>
+      <p><strong>Taxable Pay:</strong> <span id="taxable"></span></p>
       <p><strong>PAYE (Tax):</strong> <span id="paye"></span></p>
-      <p><strong>NHIF Deduction:</strong> <span id="nhif"></span></p>
-      <p><strong>NSSF Deduction:</strong> <span id="nssf"></span></p>
+      <p><strong>SHIF (2.75%):</strong> <span id="shif"></span></p>
+      <p><strong>NSSF:</strong> <span id="nssf"></span></p>
+      <p><strong>Housing Levy (1.5%):</strong> <span id="housing"></span></p>
+      <hr>
       <p><strong>Net Salary:</strong> <span id="net"></span></p>
     </div>
   </div>

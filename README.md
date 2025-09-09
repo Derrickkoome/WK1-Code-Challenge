@@ -1,4 +1,4 @@
-# 🚀 JavaScript Mini Projects
+# WK1: Code Challenge
 
 This repository contains three beginner-friendly JavaScript projects designed to practice HTML, CSS, and JavaScript fundamentals.  
 
@@ -9,20 +9,20 @@ Projects included:
 
 ---
 
-## 📂 Projects Overview
+## Projects Overview
 
-### 1. 🎓 Student Grade Calculator
+### 1. Student Grade Calculator
 A simple web app where users can input marks (0–100) to calculate and display a grade (A–E).  
 - **Features:**
   - Validates input between 0–100.  
   - Displays grade letter, range, and styled result.  
   - Shows grading scale for reference.  
 
-📁 Folder: `Student_grade`
+Folder: `Student_grade`
 
 ---
 
-### 2. 🚗 Speed Detector
+### 2. Speed Detector
 A tool to check if a driver is within the speed limit and calculate **demerit points**.  
 - **Features:**
   - Speed limit set at **70 km/h**.  
@@ -30,22 +30,22 @@ A tool to check if a driver is within the speed limit and calculate **demerit po
   - License suspension when points exceed 12.  
   - Error handling for invalid inputs.  
 
-📁 Folder: `Speed-Detector`
+Folder: `Speed-Detector`
 
 ---
 
-### 3. 💰 Net Salary Calculator
+### 3. Net Salary Calculator
 A salary calculator based on **Kenya PAYE, NHIF, and NSSF** rules (July 2023 rates).  
 - **Features:**
   - Calculates **gross salary, PAYE (tax), NHIF, NSSF, and net salary**.  
   - Includes validation for input values.  
   - Displays a detailed salary breakdown.  
 
-📁 Folder: `Net-salary`
+Folder: `Net-salary`
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Requirements
 - A modern web browser (Chrome, Firefox, Edge).  
