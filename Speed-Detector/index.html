@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed Demerit Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Speed Checker</h1>
+    <p class="subtitle">Enter your speed to check for demerit points</p>
+    
+    <div class="input-group">
+      <label for="speed">Enter Speed (km/h)</label>
+      <input type="number" id="speed" min="0" max="300" placeholder="Enter your speed...">
+      <div id="error" class="error-message"></div>
+    </div>
+
+    <button id="calculateBtn" class="calculate-btn">Check Speed</button>
+
+    <div id="result" class="result">
+      <div id="statusCircle" class="status-circle"></div>
+      <div id="resultText" class="result-text"></div>
+      <div id="speedInfo" class="speed-info"></div>
+    </div>
+
+    <div class="info-panel">
+      <h3>Speed Limit Rules</h3>
+      <div class="info-item">
+        <span>Speed Limit:</span>
+        <span><strong>70 km/h</strong></span>
+      </div>
+      <div class="info-item">
+        <span>Demerit Points:</span>
+        <span><strong>1 point per 5 km/h over limit</strong></span>
+      </div>
+      <div class="info-item">
+        <span>License Suspension:</span>
+        <span><strong>More than 12 points</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
