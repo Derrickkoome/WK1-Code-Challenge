@@ -1,5 +1,10 @@
-# WK1: Code Challenge
+# (WK1: Code Challenge)
 
+#### Date, 2025/09/09
+
+### By *Derrick Koome*
+
+## Description
 This repository contains three beginner-friendly JavaScript projects designed to practice HTML, CSS, and JavaScript fundamentals.  
 
 Projects included:  
